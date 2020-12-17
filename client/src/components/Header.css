@@ -1,0 +1,22 @@
+.header-main{
+    background-color: rgb(66, 66, 203);
+    color: white;
+    display: flex;
+
+}
+
+.headshot, .linked{
+    height: 130px;
+    width: 130px;
+    border-radius: 70px;
+}
+
+.header-center{
+    color: white;
+    display: flex;
+    margin: 0 auto;
+    padding: 30px 20px 0px 20px;
+    justify-content: space-evenly;
+    
+
+}
