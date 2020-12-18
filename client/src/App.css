@@ -1,28 +1,35 @@
 .App {
   text-align: center;
   background-color:rgb(194, 194, 194);
+  background-image: url(https://specials-images.forbesimg.com/imageserve/1083142754/960x0.jpg?cropX1=0&cropX2=6000&cropY1=625&cropY2=4000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  height: 100vh;
 }
 
 .home-main{
   background-color: rgb(194, 194, 194);
   height: 100vh;
+  background-image: url(https://specials-images.forbesimg.com/imageserve/1083142754/960x0.jpg?cropX1=0&cropX2=6000&cropY1=625&cropY2=4000);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  
 }
 
 .container{
-  margin: 100px 500px 0px 290px;
+  margin: 0px 400px 0px 330px;
   border: .3px solid black;
   padding: 10px;
-  width: 60vw;
+  width: 50vw;
   background-color: white;
   -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
-  box-shadow: 10px 10px 5px 1px rgba(66, 66, 203,0.75);
+  box-shadow: 12px 12px 40px 5px rgba(66, 66, 203,0.75);
+  opacity: .7;
 }
 
-.slash{
-  height: 30px;
-  background-color:rgba(66, 66, 203,) ;
-}
 
 .callaction{
   padding: 10px;
@@ -32,4 +39,37 @@
 
 .name, .title, .callaction{
   font-size: 30px;
+  color:rgba(66, 66, 203,0.75)
+}
+.name{
+  font-size: 50px;
+}
+.slash{
+  font-size:25px;
+  color:rgba(66, 66, 203,0.75);
+}
+
+.porttitle{
+  color: white;
+}
+.card{
+  margin: 0 auto;
+  border: .3px solid black;
+  padding: 10px;
+  width: 50vw;
+  background-color: white;
+  -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
+  box-shadow: 12px 12px 40px 5px rgba(66, 66, 203,0.75);
+  opacity: .75;
+  font-size: 30px;
+  color:rgba(66, 66, 203,0.75)
+}
+
+#adlib{
+  font-size: 20px;
+}
+
+#co{
+  font-size: 20px
 }

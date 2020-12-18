@@ -20,7 +20,7 @@ export default function Header() {
             </div>
 
             <div className="header-right">
-                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chris-haar/">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/kathryn-haar-franks-rpl-84178640/">
                     <img className="linked" src="/assets/linkedin-1.png" />
                 </a> 
             </div>
