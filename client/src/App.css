@@ -4,22 +4,13 @@
   background-image: url(https://specials-images.forbesimg.com/imageserve/1083142754/960x0.jpg?cropX1=0&cropX2=6000&cropY1=625&cropY2=4000);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 100%;
+  background-size: cover;
   height: 100vh;
 }
 
-.home-main{
-  background-color: rgb(194, 194, 194);
-  height: 100vh;
-  background-image: url(https://specials-images.forbesimg.com/imageserve/1083142754/960x0.jpg?cropX1=0&cropX2=6000&cropY1=625&cropY2=4000);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
-  
-}
 
-.container{
-  margin: 0px 400px 0px 330px;
+.container,.contactbox{
+  margin: 0 auto;
   border: .3px solid black;
   padding: 10px;
   width: 50vw;
@@ -72,4 +63,62 @@
 
 #co{
   font-size: 20px
+}
+
+
+.contactbox{
+  font-size: 30px;
+  color:rgba(66, 66, 203,0.75);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  margin-top: 60px;
+
+}
+
+.submit,.resume,.email{
+  font-size: 15px;
+  margin: 0 auto;
+}
+
+.submit{
+  display: flex;
+  margin-top: 20px;
+  background-color: rgba(66, 66, 203,0.75);
+  color: white;
+}
+
+.resume{
+  background-color: rgba(66, 66, 203,0.75);
+  color: white;
+}
+
+
+
+
+
+.contactform{
+  display:flex;
+  flex-direction: column;
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
+
+.App{
+background-size: cover;
+}
+
+
+.container{
+  width: 80vw;
+}
+
+.card{
+  font-size: 20px;
+  width: 80vw;
+}
+
+
+
 }

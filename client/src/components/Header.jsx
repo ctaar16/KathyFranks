@@ -15,8 +15,8 @@ export default function Header() {
             <div className="header-center">
                 <Link to = "/" className="header-center"><h2>Home</h2></Link>
                 <Link to = "/Portfolio" className="header-center"><h2>Portfolio</h2></Link>
-                <Link to = "/" className="header-center"><h2>About</h2></Link>
-                <Link to = "/" className="header-center"><h2>Contact</h2></Link>
+                <Link to = "/About" className="header-center"><h2>About</h2></Link>
+                <Link to = "/Contact" className="header-center"><h2>Contact</h2></Link>
             </div>
 
             <div className="header-right">
