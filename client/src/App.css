@@ -34,10 +34,6 @@
   font-size: 22px;
 }
 
-
-
-
-
 .name, .title, .callaction{
   font-size: 30px;
   color:rgba(66, 66, 203,0.75)
@@ -56,16 +52,23 @@
 .card{
   margin: 0 auto;
   border: .3px solid black;
-  padding: 10px;
+  padding: 5px;
   width: 75vw;
   background-color: white;
   -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
   box-shadow: 12px 12px 40px 5px rgba(66, 66, 203,0.75);
   opacity: .75;
-  font-size: 19px;
+  font-size: 20px;
   color:rgba(66, 66, 203,0.75)
 }
+
+.p{
+  margin: 5px;
+}
+
+
+
 
 #adlib{
   font-size: 20px;
