@@ -28,6 +28,16 @@
   text-decoration: none;
 }
 
+.callaction1{
+  background-color: hsl(243, 80%, 62%);
+  color:white;
+  font-size: 22px;
+}
+
+
+
+
+
 .name, .title, .callaction{
   font-size: 30px;
   color:rgba(66, 66, 203,0.75)
@@ -99,6 +109,7 @@
   background-color: rgba(66, 66, 203,0.75);
   color: white;
   text-decoration: none;
+  font-size: 22px;
 }
 
 

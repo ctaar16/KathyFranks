@@ -34,18 +34,7 @@ export default class Contact extends React.Component {
                 <button className="submit">SUBMIT</button>
               )}
               {status === "ERROR" && <p>Ooops! There was an error.</p>}
-              <div>
-                <button className="resume">
-                  <a
-                    className="resume"
-                    rel="noreferrer"
-                    target="_blank"
-                     href="https://drive.google.com/file/d/1UnPgA7o2O_FJgEB0UjqFFTpmE54zExSs/view?usp=sharing"
-                  >
-                    VIEW MY RESUME
-                  </a>
-                </button>
-              </div>
+              
             </form>
           </section>
           </div>

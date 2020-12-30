@@ -10,7 +10,7 @@ export default function Home() {
                 <p className="slash">_____________________</p>
                 <p className="title">Registered Professional Landman(RPL)</p>
                 <p className="title">Right of Way Senior Title Agent</p>
-                <Link to ="/Portfolio" className="callaction"><button>View My Experience</button></Link>
+                <Link to ="/Portfolio" className="callaction"><button className="callaction1">View My Experience</button></Link>
             </div>
             
         </div>
