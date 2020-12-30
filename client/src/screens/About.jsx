@@ -15,7 +15,7 @@ export default function Contact() {
 
             <p>Kathryn has worked in various courthouse environments, records systems and utilized different professional and proprietary software systems in her professional work. She has proven to be extremely adaptable to the changes needed to accomplish client success. Kathryn has a proven record of professional integrity and professional development.</p> 
 
-            <p>Kathryn has remained active in her professional organizations, where she has completed more than ninety hours (90) of professional development training through AAPL and ETAPL courses, seminars, and workshops. Kathryn reaches beyond the typical professional development opportunities for landmen. She recently completed the Texas State Bar "<strong>Oil and Gas and Mineral Title Examination Course</strong>," earning a total of 15.75 MCLE credit hours. </p>
+            <p>Kathryn has remained active in her professional organizations, where she has completed more than ninety hours (90) of professional development training through AAPL and ETAPL courses, seminars, and workshops. Kathryn reaches beyond the typical professional development opportunities for landmen. She recently completed the Texas State Bar "<strong>Oil and Gas and Mineral Title Examination Course</strong>," earning the equivalent of 15.75 MCLE credit hours. </p>
         </div>
     
 
