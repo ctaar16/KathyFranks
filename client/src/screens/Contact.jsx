@@ -21,7 +21,7 @@ export default class Contact extends React.Component {
             <form
               className="contactform"
               onSubmit={this.submitForm}
-            //   action="https://formspree.io/f/xleopwrv"
+              action="https://formspree.io/f/mrgooryl"
               method="POST"
             >
               <label className="email">EMAIL: </label>
@@ -40,9 +40,9 @@ export default class Contact extends React.Component {
                     className="resume"
                     rel="noreferrer"
                     target="_blank"
-                    // href="https://drive.google.com/file/d/1UnPgA7o2O_FJgEB0UjqFFTpmE54zExSs/view?usp=sharing"
+                     href="https://drive.google.com/file/d/1UnPgA7o2O_FJgEB0UjqFFTpmE54zExSs/view?usp=sharing"
                   >
-                    RESUME
+                    VIEW MY RESUME
                   </a>
                 </button>
               </div>

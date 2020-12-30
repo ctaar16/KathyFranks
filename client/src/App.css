@@ -47,13 +47,13 @@
   margin: 0 auto;
   border: .3px solid black;
   padding: 10px;
-  width: 50vw;
+  width: 75vw;
   background-color: white;
   -webkit-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 10px 10px 5px 1px rgba(0,0,0,0.75);
   box-shadow: 12px 12px 40px 5px rgba(66, 66, 203,0.75);
   opacity: .75;
-  font-size: 30px;
+  font-size: 19px;
   color:rgba(66, 66, 203,0.75)
 }
 
@@ -65,6 +65,12 @@
   font-size: 20px
 }
 
+#newslash{
+  font-size: 30px;
+  color: rgba(66, 66, 203,0.75);
+}
+
+
 
 .contactbox{
   font-size: 30px;
@@ -73,6 +79,7 @@
   display: flex;
   flex-direction: column;
   margin-top: 60px;
+  width: 75vw;
 
 }
 
@@ -91,9 +98,8 @@
 .resume{
   background-color: rgba(66, 66, 203,0.75);
   color: white;
+  text-decoration: none;
 }
-
-
 
 
 
@@ -103,22 +109,79 @@
 
 }
 
-@media only screen and (min-device-width : 320px) and (max-device-width : 680px) {
+
+.input,.msg{
+  width: 50vw;
+  margin: 0 auto;
+}
+
+.msg{
+  height: 50px;
+}
+
+
+@media only screen and (min-device-width :360px) and (max-device-width :820px) {
 
 .App{
 background-size: cover;
+height: 100vh;
 }
 
+.callaction{
+  font-size: 25px;
+}
+
+.callaction:hover{
+    display: inline-block;
+    position: relative;
+    color: hsl(222, 25%, 14%);
+  }
+  
+  .borderLeftRight::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: hsl(243, 80%, 62%);
+    transform-origin: bottom right;
+    transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  
+  .borderLeftRight:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+  
+
+
+.magnifyText:hover {
+    transform: scale(1.05);
+    color: hsl(243, 80%, 62%);
+}
+
+.magnifyText:active {
+    transform: scale(.9);
+
+}
 
 .container{
   width: 80vw;
 }
 
 .card{
-  font-size: 20px;
+  font-size: 10px;
+  width: 80vw;
+}
+
+.contactbox{
   width: 80vw;
 }
 
 
-
 }
+
+
+
