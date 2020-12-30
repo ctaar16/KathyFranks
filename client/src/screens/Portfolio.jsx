@@ -16,7 +16,7 @@ export default function Portfolio() {
                     className="resume"
                     rel="noreferrer"
                     target="_blank"
-                     href="https://drive.google.com/file/d/1Wb2IyO9EaQiw_OkuUdGX99SrXC5kMrM-/view?usp=sharing"
+                     href="https://drive.google.com/file/d/1xW8EVY5W7YhCpKuxUEv5spwcBkCYDBlM/view?usp=sharing"
                   >
                     VIEW MY RESUME
                   </a>
